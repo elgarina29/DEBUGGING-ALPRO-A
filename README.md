@@ -4,7 +4,7 @@ A repository containing debugging challenges for each module of the **Algorithms
 
 This repository is designed to help students develop their programming skills through debugging exercises, error identification, logical analysis, and problem-solving.
 
-## 📌 Repository Information
+## Repository Information
 
 - **University:** Universitas Trunodjoyo Madura
 - **Course:** Algorithms and Basic Programming (ALPRO)
