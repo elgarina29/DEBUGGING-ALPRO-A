@@ -1,29 +1,29 @@
+
 total_nilai = 0
-jumlah_data = 3
-jumlah_perulangan = 1
-n = 0
+jumlah_data = 6
 
+for i in range(1, jumlah_data + 1, 2):
+    print("Data ke-", i)
+    nilai = int(input("Masukkan nilai tugas: "))
 
-for i in range(1, jumlah_data + 1):
-        print("Data ke-", 1)
-        nilai = input("Masukkan nilai tugas: ")
-    
-        total_nilai = total_nilai + nilai
-    
-    if 85 <= nilai >= 85
+    total_nilai = total_nilai + nilai
+
+    if nilai >= 85:
         predikat = "Sangat Baik"
-        if n <= nilai >= 70
-            predikat = "Baik"
-    else:
+    elif nilai >= 70:
+        predikat = "Baik"
+    elif nilai >= 60:
         predikat = "Cukup"
-        
-    print(f"Predikat Anda: ", predikat)
+    else:
+        predikat = "Kurang"
 
-r   ata_rata = total_nilai / jumlah_data
+    print("Predikat Anda:", predikat)
+
+rata_rata = total_nilai / jumlah_data
 
 print("--- Hasil Akhir ---")
-print(f"Total Akumulasi Nilai: ", total_nilai)
-print(f"Rata-rata Kelas = " rata_rata)
+print("Total Akumulasi Nilai:", total_nilai)
+print("Rata-rata Nilai:", rata_rata)
 
 """
 Berdasarkan struktur kode program rekapitulasi nilai di atas, buatlah perbaikan/debugg lalu lakukan modifikasi 
@@ -36,3 +36,4 @@ pada kode baru dengan ketentuan perintah berikut:
    - Jika di bawah 60, predikat = "Kurang"
 
 """
+
